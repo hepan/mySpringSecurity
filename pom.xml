@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<packaging>pom</packaging>
+	<modules>
+		<module>my-dependencies</module>
+		<module>sample</module>
+	</modules>
+	<groupId>io.github.hepan</groupId>
+	<artifactId>my-spring-security</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>my-spring-security</name>
+	<description>springsecurity 学习</description>
+
+	<developers>
+		<developer>
+			<name>hepan</name>
+			<email>hp.hepan@gmail.com</email>
+		</developer>
+	</developers>
+
+	<properties>
+		<java.version>1.8</java.version>
+		<revision>0.0.1-SNAPSHOT</revision>
+	</properties>
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
